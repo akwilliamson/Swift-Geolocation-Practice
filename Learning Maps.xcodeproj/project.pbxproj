@@ -13,6 +13,7 @@
 		97D3AA931A2EBE91006C969C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D3AA921A2EBE91006C969C /* Images.xcassets */; };
 		97D3AA961A2EBE91006C969C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D3AA941A2EBE91006C969C /* LaunchScreen.xib */; };
 		97D3AAA21A2EBE91006C969C /* Learning_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3AAA11A2EBE91006C969C /* Learning_MapsTests.swift */; };
+		97D3AAAC1A2EBEC2006C969C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D3AAAB1A2EBEC2006C969C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		97D3AA9B1A2EBE91006C969C /* Learning MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D3AAA01A2EBE91006C969C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97D3AAA11A2EBE91006C969C /* Learning_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_MapsTests.swift; sourceTree = "<group>"; };
+		97D3AAAB1A2EBEC2006C969C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D3AAAC1A2EBEC2006C969C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		97D3AA7D1A2EBE90006C969C = {
 			isa = PBXGroup;
 			children = (
+				97D3AAAB1A2EBEC2006C969C /* MapKit.framework */,
 				97D3AA881A2EBE90006C969C /* Learning Maps */,
 				97D3AA9E1A2EBE91006C969C /* Learning MapsTests */,
 				97D3AA871A2EBE90006C969C /* Products */,
